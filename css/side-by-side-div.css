@@ -1,0 +1,7 @@
+div {
+    border: 1px solid silver;
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    min-height: 300px;
+}

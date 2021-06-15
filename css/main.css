@@ -1,0 +1,22 @@
+body {
+    font: normal normal normal 18pt/20pt Verdana, Tahoma, Arial, sans-serif;
+}
+table { 
+    width: 100%;
+
+}
+table, tr, td {
+    border: 1px solid silver;
+    border-collapse: collapse;
+}
+td {
+    width: 300px;
+    text-align: center;
+}
+/* h3 {
+    color: red;
+} */
+#name { 
+    font-weight: bold; 
+    font-size: 1.2em;
+}
