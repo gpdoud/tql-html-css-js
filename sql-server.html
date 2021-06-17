@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SQL Server</title>
+    <link href="css/bc-docs.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="bc-docs.html">Index</a>
+        <a href="git-github.html">Git/GitHub</a>
+        <a href="sql-server.html">SQL Server</a>
+        <a href="c-sharp.html">C Sharp</a>
+    </nav>
+    <label id="pageTitle">SQL Server</label>
+    <div>
+        <h3>Overview</h3>
+        <p>
+            A popular SQL database by Microsoft
+        </p>
+    </div>
+    <div>
+        <h3>Simple Select</h3>
+        <pre>
+        SELECT * From [tablename]
+        </pre>
+        <p>
+            Select all rows and all columns from a table
+        </p>
+    </div>
+    <div>
+        <h3>Join View</h3>
+        <pre>
+        SELECT * 
+            From [tablename1] [alias1]
+            Join [tablename2] [alias2]
+                on [alias1].col = [alias2].col
+        </pre>
+        <p>
+            Select all rows and all columns from multiple tables
+            where the tables have columns with a common value
+        </p>
+    </div>
+</body>
+</html>

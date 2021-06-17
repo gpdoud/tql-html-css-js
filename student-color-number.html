@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="js/student-color-number.js"></script>
+</head>
+<body onload="loaded()">
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Color</th>
+                <th>Number</th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <div>
+        <input id="student" type="text" placeholder="Student name">
+        <input id="color" type="text" placeholder="Fav color">
+        <input id="number" type="text" placeholder="Fav number">
+        <button onclick="add()" class="btn btn-success">Add</button>
+    </div>
+</body>
+</html>

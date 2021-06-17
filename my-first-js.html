@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script lang="javascript">
+
+        const clicked = () => {
+            let inputControl = document.getElementById("inp");
+            let inputCtrlValue = inputControl.value
+            let outputControl = document.getElementById("out");
+            outputControl.value = inputCtrlValue;
+        }
+        
+    </script>
+</head>
+<body>
+    <!-- My first javascript -->
+    <input id="inp" type="text" value="ABC">
+    <button onclick="clicked()">Click me please!</button>    
+    <input id="out" type="text" value="XYZ">
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script lang="javascript">
+        let xhr = new XMLHttpRequest();
+        xhr.responseType = "json";
+        xhr.open("GET", "http://localhost:5000/api/users", true);
+        xhr.onload = function () {
+            console.log(xhr.response);
+        }
+        xhr.send();
+
+    </script>
+</body>
+
+</html>

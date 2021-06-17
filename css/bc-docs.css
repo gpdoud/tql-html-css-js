@@ -1,0 +1,19 @@
+/* body {
+    font: 18pt/20pt Verdand, Tahoma, Arial, sans-serif;
+} */
+#pageTitle {
+    margin: 5px 0;
+    display: block;
+    font-size: 1.1em;
+}
+nav {
+    background-color: #454545;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: silver;
+}
+nav a:hover {
+    color: white;
+}
