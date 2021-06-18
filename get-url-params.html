@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script lang="javascript">
+        const getParms = URL =>  {
+            let parms = document.URL.split("?")[1];
+            parms = parms.split("&");
+            let json = {};
+            for(let p of parms) {
+                let kv = p.split("=");
+                json[kv[0]] = kv[1];
+            }
+            return json;
+        }
+        console.log(getParms(document.URL));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
