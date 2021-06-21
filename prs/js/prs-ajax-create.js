@@ -32,7 +32,7 @@ $(() => {
         })
         .done((res) => {
             console.debug(res);
-            document.location.href = "http://localhost:5500/prs-ajax.html";
+            document.location.href = "prs-ajax.html";
             
         })
         .fail((err) => {

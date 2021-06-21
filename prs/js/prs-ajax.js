@@ -25,7 +25,8 @@ const display = () => {
         tr.append($(`<td>${u.firstname} ${u.lastname}</td>`));
         tr.append($(`<td>${(u.isReviewer ? "Yes" : "No")}</td>`));
         tr.append($(`<td>${(u.isAdmin ? "Yes" : "No")}</td>`));
-        tr.append($(`<a href="http://localhost:5500/prs-ajax-detail.html?id=${u.id}">Detail</a>`));
+        tr.append($(`<td><a href="prs-ajax-detail.html?id=${u.id}">Detail</a>` +
+                            ` | <a href="prs-ajax-edit.html?id=${u.id}">Edit</a></td>`));
         tbody.append(tr);
     }
 };
