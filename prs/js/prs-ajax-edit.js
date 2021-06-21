@@ -3,6 +3,8 @@ let user = null;
 // Ready function
 $(() => {
 
+    $("table").addClass("table table-striped");
+
     $("#save").on("click", () => {
         editUser();
     })
